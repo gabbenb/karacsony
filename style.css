@@ -1,0 +1,37 @@
+header {
+    background-color: #ff0000;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+body{
+    background-color: green;
+}
+
+p{
+    color: white;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.card {
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card.border-warning {
+    border-color: #ffc107 !important;
+}
+
+.result {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
